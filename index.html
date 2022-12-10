@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400&family=Almarai:wght@300;400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/clock.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="text-content">
+        <h2 class="city">القاهرة</h2>
+        <div class="date">الجمعه- 23 2022</div>
+        <hr style="margin: 0 0 0 50px" />
+      </div>
+      <div class="cards">
+        <div class="card">
+          <h2>الفجر</h2>
+          <p class="Fajr">04:25</p>
+        </div>
+        <div class="card">
+          <h2>الشروق</h2>
+          <p class="Sunrise">04:25</p>
+        </div>
+        <div class="card">
+          <h2>الضهر</h2>
+          <p class="Dhuhr">04:25</p>
+        </div>
+        <div class="card">
+          <h2>العصر</h2>
+          <p class="Asr">04:25</p>
+        </div>
+        <div class="card">
+          <h2>المغرب</h2>
+          <p class="Maghrib">04:25</p>
+        </div>
+        <div class="card">
+          <h2>العشاء</h2>
+          <p class="Isha">04:25</p>
+        </div>
+      </div>
+      <div class="selected">
+        <select>
+          <option value="Al Qāhirah" selected>القاهرة</option>
+          <option value="Ad Daqahlīyah">الدقهلية</option>
+          <option value="	Al Baḩr al Aḩmar">البحر الاحمر</option>
+          <option value="Al Buḩayrah">البحيرة</option>
+          <option value="Al Fayyūm">الفيوم</option>
+          <option value="	Al Gharbīyah">الغربية</option>
+          <option value="Al Iskandarīyah">الاسكندرية</option>
+          <option value="Al Ismā'īlīyah">الاسماعيلية</option>
+          <option value="Al Jīzah">الجيزة</option>
+          <option value="Al Minyā">المنيا</option>
+          <option value="Al Minūfīyah">المنوفية</option>
+          <option value="Al Qalyūbīyah">القليوبية</option>
+          <option value="Al Uqşur">الاقصر</option>
+          <option value="D	Al Wādī al Jadīd">الوادي الجديد</option>
+          <option value="As Suways">السويس</option>
+          <option value="Ash Sharqīyah">الشرقية</option>
+          <option value="Aswān">اسوان</option>
+          <option value="Asyūţ">اسيوط</option>
+          <option value="Banī Suwayf">بني سويف</option>
+          <option value="Būr Sa‘īd">بورسعيد</option>
+          <option value="Dumyāţ">دمياط</option>
+          <option value="Janūb Sīnā'">جنوب سينا</option>
+          <option value="Kafr ash Shaykh">كفر الشيخ</option>
+          <option value="Maţrūḩ">مطروح</option>
+          <option value="Qinā">قنا</option>
+          <option value="Shamāl Sīnā'">شمال سينا</option>
+          <option value="Sūhāj">سوهاج</option>
+        </select>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/clock.js"></script>
+  </body>
+</html>
